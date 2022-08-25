@@ -1,0 +1,45 @@
+.row-header {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer {
+    background-color: #d1c4e9;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+
+/* These additional properties will be merged with the original jumbotron class definition in Bootstrap */
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: #9575CD;
+    color: floralwhite;
+}
+
+.address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+.body {
+    padding : 50px 0px 0px 0px; /* such that the navigation bar does not hide */
+                                /* the topmost element in the body of my website */
+
+    z-index : 0;  /* defining the order of overlapping HTML elements.*/
+                  /*Elements with a higher index will be*/
+                  /*placed on top of elements with a lower index.*/
+}
+
+.navbar-dark {
+    background-color : #512DA8;
+}
