@@ -8,4 +8,12 @@ Course can be found in [Coursera](https://www.coursera.org/learn/bootstrap-4/hom
   - Setting up your Development Environment: Git and Node
   - Introduction to Bootstrap
   - Responsive Design and Bootstrap Grid System
-  - [Assignment1](https://github.com/AhnJunYeong0319/stanford-algorithms-specialization/blob/main/Course2/Week1/Course1_PA1.ipynb)
+  - ☑️[Assignment1](https://github.com/AhnJunYeong0319/Full-Stack-Web-Development-with-React-Specialization/course1/week1/assignment)
+  
+- <strong>Week 2</strong>:
+  - Navigation and Navigation Bar
+  - User Input: Buttons and Forms
+  - Displaying Content: Tables and Cards
+  - Images and Media: Images, Thumbnails, Media Objects
+  - Alerting Users: Badges, Alerts, Progress Bars
+  - ☑️[Assignment2](https://github.com/AhnJunYeong0319/Full-Stack-Web-Development-with-React-Specialization/course1/week2/assignment)
