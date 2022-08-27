@@ -29,9 +29,9 @@ git push -u origin main         # push하고 끝.
 
 1. .git이란 파일은 숨어있다. 이 파일은 git init 명령어를 통해 생성되는 파일로, local에 있는 directory가 git repo용이라는 뜻이다. 따라서 얘를 보려면 아래와 같이 확인해야한다. 만약 outer (=parent) directory가 git repo용인데, inner (=child)에도 숨어있는 .git이 있는 상태에서 아무 생각없이 github에 올린다면 해결하는데만 6시간이 걸렸던 **nested git**이라는 issue를 다시 만나게 된다………………
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cd838378-2b59-4ab6-a418-d0af2849d9df/Untitled.png)
+![image](https://user-images.githubusercontent.com/63603383/187036943-cf5698ee-2e65-41e9-a9b8-4708d2020ddb.png) <br>
 2. branch main과 master를 헷갈리지 말도록. 난 이미 알고 있듯이 master은 과거의 유물이라 main에 넣어야하는데, 문제는 이게 중간에 바뀐거다보니 google에 있는 git command 관련 instruction들이 대부분 master 기준으로 설명하고 있다. 오랜만에 git commit하느라 이걸 다 까먹고 또 멍청하게 git push origin master를 시작했다간 지옥이다. 앞으론 그냥 master란 단어를 머릿속에서 지우고, 첫 push 전 git branch -M main을 통해 main에 위치할 수 있도록 하자. (물론 나중에 내가 깃허브로 협업을 하게 된다면 branch 여러개를 사용하게 되겠지만 아직은 그런 일이 없다)
 
 3. 프로젝트 폴더 이동시 cd A/B/C 커맨드를 이용해서 잘 움직여야 한다. 예시로 react 프로젝트 중이라고 치자. npm start를 통해 local에서 index.html을 열려고 open folder를 통해 가장 가까운 디렉토리에 위치해있을 것이다. 이러면 자연스럽게 terminal에서도 같은 위치에 있을 건데, 이걸 진행하면서 동시에 더 바깥쪽에 있는 git directory (= .git 파일이 있는, git remote 저장소와 연결된, git init을 했던 프로젝트 폴더)에도 위치하고 싶을 때가 있을것이다 - 단순히 실시간으로 깃헙 push할때만 해도.
-4. ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/807b4cbf-0e5c-484c-b126-6537bf79d069/Untitled.png)
-5. 이럴땐 VSCode에서 terminal 이름 옆에 +를 누르면 별도로 움직이는 다른 cmd가 나와서 편하게 두 개를 동시에 쓰면 된다.
+![image](https://user-images.githubusercontent.com/63603383/187036957-1f24ab5d-1c2c-46cf-b592-ad055b1bd1e9.png) <br>
+이럴땐 VSCode에서 terminal 이름 옆에 +를 누르면 별도로 움직이는 다른 cmd가 나와서 편하게 두 개를 동시에 쓰면 된다.
