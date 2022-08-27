@@ -35,3 +35,14 @@ git push -u origin main         # push하고 끝.
 3. 프로젝트 폴더 이동시 cd A/B/C 커맨드를 이용해서 잘 움직여야 한다. 예시로 react 프로젝트 중이라고 치자. npm start를 통해 local에서 index.html을 열려고 open folder를 통해 가장 가까운 디렉토리에 위치해있을 것이다. 이러면 자연스럽게 terminal에서도 같은 위치에 있을 건데, 이걸 진행하면서 동시에 더 바깥쪽에 있는 git directory (= .git 파일이 있는, git remote 저장소와 연결된, git init을 했던 프로젝트 폴더)에도 위치하고 싶을 때가 있을것이다 - 단순히 실시간으로 깃헙 push할때만 해도.
 ![image](https://user-images.githubusercontent.com/63603383/187036957-1f24ab5d-1c2c-46cf-b592-ad055b1bd1e9.png) <br>
 이럴땐 VSCode에서 terminal 이름 옆에 +를 누르면 별도로 움직이는 다른 cmd가 나와서 편하게 두 개를 동시에 쓰면 된다.
+
+## Exercise (Instructions): Basics of Node.js and NPM
+![image](https://user-images.githubusercontent.com/63603383/187037055-c0ce17de-f138-4035-8670-15e553b7745b.png)
+![image](https://user-images.githubusercontent.com/63603383/187037076-4a7e7e87-025f-411d-afa9-306f729f8932.png)
+
+## Exercise (Instructions): Getting Started with Bootstrap
+![image](https://user-images.githubusercontent.com/63603383/187037120-9033ae1d-d62c-4929-8b5a-1b09729694f5.png)
+![image](https://user-images.githubusercontent.com/63603383/187037133-76e65b91-aaf3-4e0c-88ae-7cf21ec71a2e.png)
+![image](https://user-images.githubusercontent.com/63603383/187037148-838d0c5e-a276-433f-9f89-3b31398c53bd.png)
+
+
